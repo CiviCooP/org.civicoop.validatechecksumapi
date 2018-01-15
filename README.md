@@ -1,9 +1,6 @@
 # org.civicoop.validatechecksumapi
-
-![Screenshot](/images/screenshot.png)
-
-(*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
-
+This extension introduces api Checksum Validate and allows you to check with the API if a checksum is valid for a contact.
+Requires params contact_id and checksum, and will return either is_valid:true or is_valid:false
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
 ## Requirements
@@ -35,10 +32,3 @@ git clone https://github.com/FIXME/org.civicoop.validatechecksumapi.git
 cv en validatechecksumapi
 ```
 
-## Usage
-
-(* FIXME: Where would a new user navigate to get started? What changes would they see? *)
-
-## Known Issues
-
-(* FIXME *)
